@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Schedule a Demo - NeuralSync</title>
+
+<style>
+
+ * {
+
+ margin: 0;
+
+ padding: 0;
+
+ box-sizing: border-box;
+
+ font-family: 'Arial', sans-serif;
+
+ }
+
+
+
+ :root {
+
+ --primary: #2A6BBF;
+
+ --secondary: #1E4D8C;
+
+ --accent: #4CA3FF;
+
+ --background: #F5F7FA;
+
+ }
+
+
+
+ body {
+
+ background-color: var(--background);
+
+ line-height: 1.6;
+
+ }
+
+
+
+ nav {
+
+ background-color: white;
+
+ padding: 1rem 5%;
+
+ box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+ position: fixed;
+
+ width: 100%;
+
+ z-index: 100;
+
+ }
+
+
+
+ .nav-content {
+
+ display: flex;
+
+ justify-content: space-between;
+
+ align-items: center;
+
+ max-width: 1200px;
+
+ margin: 0 auto;
+
+ }
+
+
+
+ .logo {
+
+ font-size: 1.5rem;
+
+ font-weight: bold;
+
+ color: var(--primary);
+
+ }
+
+
+
+ .nav-links {
+
+ display: flex;
+
+ gap: 2rem;
+
+ }
+
+
+
+ .nav-links a {
+
+ text-decoration: none;
+
+ color: #333;
+
+ font-weight: 500;
+
+ }
+
+
+
+ .demo-section {
+
+ padding: 8rem 5% 4rem;
+
+ max-width: 1000px;
+
+ margin: 0 auto;
+
+ display: grid;
+
+ grid-template-columns: 1fr 1fr;
+
+ gap: 3rem;
+
+ }
+
+
+
+ .demo-info {
+
+ padding: 2rem;
+
+ }
+
+
+
+ .demo-info h1 {
+
+ color: var(--primary);
+
+ margin-bottom: 1.5rem;
+
+ }
+
+
+
+ .benefits-list {
+
+ list-style: none;
+
+ margin: 2rem 0;
+
+ }
+
+
+
+ .benefits-list li {
+
+ margin: 1rem 0;
+
+ display: flex;
+
+ align-items: center;
+
+ gap: 1rem;
+
+ }
+
+
+
+ .benefits-list li::before {
+
+ content: "✓";
+
+ color: var(--accent);
+
+ font-weight: bold;
+
+ }
+
+
+
+ .demo-form {
+
+ background: white;
+
+ padding: 2rem;
+
+ border-radius: 10px;
+
+ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+ }
+
+
+
+ .form-group {
+
+ margin-bottom: 1.5rem;
+
+ }
+
+
+
+ .form-group label {
+
+ display: block;
+
+ margin-bottom: 0.5rem;
+
+ color: #333;
+
+ font-weight: 500;
+
+ }
+
+
+
+ .form-group input,
+
+ .form-group select,
+
+ .form-group textarea {
+
+ width: 100%;
+
+ padding: 0.8rem;
+
+ border: 1px solid #ddd;
+
+ border-radius: 5px;
+
+ font-size: 1rem;
+
+ }
+
+
+
+ .form-group textarea {
+
+ height: 100px;
+
+ resize: vertical;
+
+ }
+
+
+
+ .submit-button {
+
+ background-color: var(--primary);
+
+ color: white;
+
+ padding: 1rem 2rem;
+
+ border: none;
+
+ border-radius: 5px;
+
+ font-size: 1rem;
+
+ font-weight: bold;
+
+ cursor: pointer;
+
+ width: 100%;
+
+ transition: background-color 0.3s;
+
+ }
+
+
+
+ .submit-button:hover {
+
+ background-color: var(--secondary);
+
+ }
+
+
+
+ .testimonials {
+
+ background: white;
+
+ padding: 4rem 5%;
+
+ margin-top: 2rem;
+
+ }
+
+
+
+ .testimonials-content {
+
+ max-width: 1000px;
+
+ margin: 0 auto;
+
+ }
+
+
+
+ .testimonial-grid {
+
+ display: grid;
+
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+ gap: 2rem;
+
+ margin-top: 2rem;
+
+ }
+
+
+
+ .testimonial-card {
+
+ background: var(--background);
+
+ padding: 1.5rem;
+
+ border-radius: 10px;
+
+ }
+
+
+
+ .footer {
+
+ background-color: var(--secondary);
+
+ color: white;
+
+ padding: 2rem 5%;
+
+ text-align: center;
+
+ margin-top: 2rem;
+
+ }
+
+
+
+ @media (max-width: 768px) {
+
+ .demo-section {
+
+ grid-template-columns: 1fr;
+
+ }
+
+
+
+ .nav-links {
+
+ display: none;
+
+ }
+
+ }
+
+ </style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="nav-content">
+
+<div class="logo">NeuralSync</div>
+
+<div class="nav-links">
+
+<a href="index.html">Home</a>
+
+<a href="#features">Features</a>
+
+<a href="#story">Our Story</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+</div>
+
+</nav>
+
+
+
+<section class="demo-section">
+
+<div class="demo-info">
+
+<h1>Experience NeuralSync in Action</h1>
+
+<p>Schedule a personalized demonstration of our revolutionary neural health optimization technology.</p>
+
+
+
+<ul class="benefits-list">
+
+<li>One-on-one consultation with our neural health experts</li>
+
+<li>Personalized assessment of your cognitive optimization goals</li>
+
+<li>Live demonstration of NeuralSync's adaptive AI technology</li>
+
+<li>Detailed explanation of our non-invasive optimization process</li>
+
+<li>Opportunity to discuss your specific needs and questions</li>
+
+</ul>
+
+
+
+<p>Our demos typically last 45 minutes and can be conducted either virtually or at our research center in Cambridge, MA.</p>
+
+</div>
+
+
+
+<div class="demo-form">
+
+<form id="scheduleDemo" action="#" method="POST">
+
+<div class="form-group">
+
+<label for="name">Full Name</label>
+
+<input type="text" id="name" name="name" required>
+
+</div>
+
+
+
+<div class="form-group">
+
+<label for="email">Email Address</label>
+
+<input type="email" id="email" name="email" required>
+
+</div>
+
+
+
+<div class="form-group">
+
+<label for="phone">Phone Number</label>
+
+<input type="tel" id="phone" name="phone">
+
+</div>
+
+
+
+<div class="form-group">
+
+<label for="demo-type">Preferred Demo Type</label>
+
+<select id="demo-type" name="demo-type" required>
+
+<option value="">Select an option</option>
+
+<option value="virtual">Virtual Demo</option>
+
+<option value="in-person">In-Person Demo (Cambridge, MA)</option>
+
+</select>
+
+</div>
+
+
+
+<div class="form-group">
+
+<label for="preferred-date">Preferred Date</label>
+
+<input type="date" id="preferred-date" name="preferred-date" required>
+
+</div>
+
+
+
+<div class="form-group">
+
+<label for="preferred-time">Preferred Time</label>
+
+<select id="preferred-time" name="preferred-time" required>
+
+<option value="">Select a time</option>
+
+<option value="morning">Morning (9AM - 12PM)</option>
+
+<option value="afternoon">Afternoon (1PM - 4PM)</option>
+
+<option value="evening">Evening (5PM - 7PM)</option>
+
+</select>
+
+</div>
+
+
+
+<div class="form-group">
+
+<label for="message">Additional Information</label>
+
+<textarea id="message" name="message" placeholder="Tell us about your goals or any specific areas of interest..."></textarea>
+
+</div>
+
+
+
+<button type="submit" class="submit-button">Schedule Demo</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+
+<section class="testimonials">
+
+<div class="testimonials-content">
+
+<h2>What Others Are Saying</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial-card">
+
+<p>"The demo session exceeded my expectations. The team thoroughly explained the technology and answered all my questions. I'm impressed by how personalized the approach is."</p>
+
+<p><strong>- Dr. Sarah Johnson, Neurologist</strong></p>
+
+</div>
+
+<div class="testimonial-card">
+
+<p>"After seeing NeuralSync in action, I immediately understood its potential. The non-invasive approach and real-time optimization are truly revolutionary."</p>
+
+<p><strong>- Michael Chen, Tech Executive</strong></p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer class="footer">
+
+<p>Contact us: info@neuralsync.ai</p>
+
+<p>© 2024 NeuralSync. All rights reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
+
